@@ -81,11 +81,12 @@ def extract_frame_from_video(src_path,dst_path,spacing=0.1,write=True):
 def preprocess(video_path,data_path):
     """
     Desc:
-
+        预处理数据，将视频数据抓取出来图片，存储下来
     Args:
-
+        vedio_path --- 视频文件存储路径
+        data_path --- 抓取帧的图片存储路径
     Returns:
-
+        None
     """
     # 读取视频所在文件夹的所有视频文件
     # os.listdir(path) 返回指定路径下的文件和文件夹列表

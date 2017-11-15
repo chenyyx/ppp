@@ -45,7 +45,7 @@ import numpy as np
 def extract_frame_from_video(src_path,dst_path,spacing=0.1,write=True):
     """
     Desc:
-
+        
     Args:
     Returns:
     """
